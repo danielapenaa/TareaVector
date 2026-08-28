@@ -45,7 +45,7 @@ public class VectorNumeros {
                 encontrado = true;
             }
         }
-
+            //ESTOS SON LOS NUMEROS DE LA PRUEBA 11 20 35 50 12 78 90 45 60 25 100 15 40 55 30  
         if (!encontrado) {
             System.out.println("El numero no esta en el vector.");
         }
