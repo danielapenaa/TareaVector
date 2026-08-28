@@ -8,7 +8,7 @@ public class VectorNumeros {
 
         int[] vector = new int[15];
 
-        // Llenar el vector
+        // LLENAR EL VECTOR CON NUMEROS ENTRE 10 Y 100
         for (int i = 0; i < vector.length; i++) {
 
             int numero;
@@ -26,14 +26,14 @@ public class VectorNumeros {
             vector[i] = numero;
         }
 
-        // Mostrar el vector en la consola
+        // MOSTRAR EL VECTOR EN LA CONSOLA
         System.out.println("\nValores del vector:");
 
         for (int i = 0; i < vector.length; i++) {
             System.out.print(vector[i] + " ");
         }
 
-        // Buscar un numero en el vector
+        // BUSCAR UN NUMERO EN EL VECTOR 
         System.out.print("\n\nIngrese un numero para buscar: ");
         int buscar = teclado.nextInt();
 
@@ -50,7 +50,7 @@ public class VectorNumeros {
             System.out.println("El numero no esta en el vector.");
         }
 
-        // Determinar el mayor numero y el menor dentro del vector
+        // DETERMINAR EL NUMERO MAYOR Y EL MENOR DENTRO DEL VECTOR
         int mayor = vector[0];
         int menor = vector[0];
 
@@ -67,7 +67,7 @@ public class VectorNumeros {
         System.out.println("\nNumero mayor: " + mayor);
         System.out.println("Numero menor: " + menor);
 
-        // Multiples de X
+        // MULTIPLOS DE X SE INGRESA CUALQUIER NUMERO DEL VECTOR
         System.out.print("\nIngrese un numero X para buscar sus multiplos: ");
         int x = teclado.nextInt();
 
@@ -86,7 +86,7 @@ public class VectorNumeros {
             System.out.println("No hay multiplos de " + x + " en el vector.");
         }
 
-        // Calcular la suma de todos los elementos del vector
+        // CALCULAR LA SUMA DE TODOS LOS ELEMENTOS DEL VECTOR
         int suma = 0;
 
         for (int i = 0; i < vector.length; i++) {
@@ -95,12 +95,12 @@ public class VectorNumeros {
 
         System.out.println("\n\nSuma total: " + suma);
 
-        // Promedio 
+        // CALCULAR EL PROMEDIO
         double promedio = (double) suma / vector.length;
 
         System.out.println("Promedio: " + promedio);
 
-        // Nuevo vector con valores mayores al promedio
+        // NUEVO VECTOR CON VALORES MAYORES AL PROMEDIO
         int cantidad = 0;
 
         for (int i = 0; i < vector.length; i++) {
